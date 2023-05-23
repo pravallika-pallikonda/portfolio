@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+.heading{
+    text-align: center;
+    border-style: inset;
+    font-family: 'Poppins', sans-serif;
+}
+
+.list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin:center;
+    padding-left: 20%;
+    padding-right: 20%;   
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.menu{
+    background-color: rgb(232, 238, 244);
+    border-radius: 5px;  
+     
+}    
+
+.name{
+    color: black;
+    font-style: italic;
+    text-align: center;
+    font-size: 65px;
+}
+
+.mail{
+    line-height: 20px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 35px;
+    border: 1px solid;
+    margin-left: 20%;
+    margin-right: 20%;   
+}
+
+
+h2.about{
+    text-align: center;
+    font-style:  italic;
+    color: black;
+    font-size: 35px;
+}
+
+
+.img{
+    text-align: center;  
+}
+ 
+.paragraph{
+    text-align: center;
+    margin-top: 45px;
+    line-height: 25px;
+    margin-bottom: 50px;
+    /* margin-right: 10px;
+    /* margin-left: 10px; */
+    background-color: rgb(200, 235, 235);
+    font-size: 18px;
+    border: 0px solid;
+    margin-left: 20%;
+    margin-right: 20%;
+} 
+
+.introduction{
+    text-align: center;
+    line-height: 30px;
+    font-size: 22px;
+}
+
+
+.menu{
+    background-color: rgb(214, 220, 225);
+    border-radius: 5px;
+    
+}
+
+.study{
+    text-align: center;
+    font-style: italic;
+    color: black;
+    font-size: 35px;
+}
+
+table,th,tr,td{
+    border: 1px solid;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-spacing: 4px;
+    
+}
+
+.data{
+    background-color: rgb(227, 226, 227);
+}
+
+tr,td{
+    padding: 8px;
+    border-color: blue;  
+}
+
+.skill{
+    text-align: center;
+    font-style: italic;color: black;
+    font-size: 35px;
+}
+
+.languages{
+    text-align: center;
+    /* border: 1px solid; */
+    list-style-type: none;
+    margin-left: 20%;
+    margin-right: 20%;
+   
+}
+.items{
+    background-color: rgb(253, 222, 180);
+    border: 1px solid;
+    font-size: 22px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.py{
+    background-color: rgb(245, 245, 252);
+    border: 1px solid;
+    font-size: 18px;
+}
+
+h2.fav{
+    text-align: center;
+    font-style: italic;
+    font-size: 35px;
+    color: black;
+}
+
+.hobby{
+    text-align: center;
+    font-size: 18px;
+}
