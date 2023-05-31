@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
 .heading{
     text-align: center;
     border-style: inset;
@@ -11,135 +12,312 @@
     flex-direction: row;
     justify-content:space-between;
     margin:center;
-    padding-left: 20%;
-    padding-right: 20%;   
+    padding-left: 6%;
+    padding-right: 6%;   
     font-size: 18px;
-    cursor: pointer;
+    cursor: pointer; 
+    font-family: "poppins regular";
 }
 
 .menu{
     background-color: rgb(232, 238, 244);
     border-radius: 5px;  
+    font-family: "poppins Light";
      
 }    
 
 .name{
-    color: black;
-    font-style: italic;
-    text-align: center;
-    font-size: 65px;
+    color: rgb(213, 199, 199);
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    font-size: 40px;
+    font-family: "poppins Light";
+    /* padding-left: 5%;  */
+    /* margin-top: 10px;  */
+    padding-top: 20px ;
+    width: 35vw;
+    color: rgb(20, 11, 11);
+    
+    
 }
 
-.mail{
-    line-height: 20px;
-    text-align: center;
-    font-size: 24px;
-    line-height: 35px;
-    border: 1px solid;
-    margin-left: 20%;
-    margin-right: 20%;   
+
+h4.mail{
+    /* line-height: 20px; */
+    /* text-align: center; */
+    font-size: 20px;
+    line-height: 40px;
+    /* border: 1px solid; */
+    /* margin-left: 20%;
+    margin-right: 20%; */
+    font-family: "poppins Light";  
+    /* padding-left: 6%;
+    padding-right: 6%; */
+
+    padding-top: 2vh;   
 }
 
 
 h2.about{
-    text-align: center;
-    font-style:  italic;
+    text-align: left;
+    font-family:  'poppins',sans-serif;
     color: black;
-    font-size: 35px;
+    font-size: 30px;
+    padding-left: 6%;
 }
 
+.myself{
+    display: flex;
+    flex-direction: row;
+    /* position: absolute; */
+    justify-content: space-between;
+    padding-left: 6%;
+    padding-right: 6%;
+    background-color: white; 
+    color: rgb(15, 9, 9);
+}
+
+
+
+.num{
+    width: auto;
+
+}
 
 .img{
-    text-align: center;  
+    
+    padding-top: 20px;
+    padding-right: 10px;
+    filter: grayscale(30%);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-align: right;
 }
+
+Img:hover {opacity: 0.7;};
+
+
+
  
-.paragraph{
-    text-align: center;
-    margin-top: 45px;
-    line-height: 25px;
-    margin-bottom: 50px;
-    /* margin-right: 10px;
-    /* margin-left: 10px; */
-    background-color: rgb(200, 235, 235);
-    font-size: 18px;
-    border: 0px solid;
-    margin-left: 20%;
-    margin-right: 20%;
-} 
+.para{
+    line-height: 20px;
+    font-size: 16px;
+  
+    text-align: right;
+    padding-left: 500px;
+    text-align: right;
+    margin-right: 110px;
+   
+    
+}  
 
 .introduction{
-    text-align: center;
-    line-height: 30px;
-    font-size: 22px;
+    text-align: left;
+    line-height: 25px;
+    font-size: 15px;
+    padding-left: 6%;
+    font-family:  'poppins',sans-serif;
+    width: 25vw;
+}
+    
+
+
+.object{
+    text-align: right;
+    margin-right: 80px;
+    font-family:  'poppins',sans-serif;
+    color: black;
+    font-size: 20px;
+    /* padding-right: 6%; */
+    /* justify-content: end; */
+
+}
+
+.career{
+    align-items: left;
+    padding-left: 500px;
+    padding-top: 20px;
+   
+    color: black;
+    width: 30vw;
+    /* font-size: 30px; */
+    padding-right: 6%;
+
+    
+}
+.college{
+    width: 20vw;
+    margin-left: 5%;
+}
+
+#container{
+    /* text-align: right; */
+    display: flex;
+    flex-direction: row;
+   
 }
 
 
+
+
+/* 
 .menu{
     background-color: rgb(214, 220, 225);
     border-radius: 5px;
     
+} */
+.education{
+    text-align: center;
+    padding-left: 6%;
+    margin-right: 6%;
 }
 
 .study{
     text-align: center;
-    font-style: italic;
+    font-family: 'poppins',sans-serif;
     color: black;
     font-size: 35px;
+    /* padding-left: 6%;
+    padding-right: 6%; */
+    padding-top: 20px;
 }
-
-table,th,tr,td{
-    border: 1px solid;
-    margin-left: 20%;
-    margin-right: 20%;
-    border-spacing: 4px;
+ 
+ table,th,tr,td{
     
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    border-spacing: 7px;
+    width: 2vw;
+    background-color: rgb(206, 215, 228);
+ }
+   
+
+table{
+    /* margin-left: 10%;
+    padding-right: 20%; */
+    height: 500px;
+    width: 80vw;
+    justify-content: center;
+    /* margin-left: 6%; */
+    /* margin-right: 2%; */
 }
 
 .data{
     background-color: rgb(227, 226, 227);
+    /* margin-right: 6%; */
+    
 }
 
-tr,td{
+/* tr,td{
     padding: 8px;
-    border-color: blue;  
-}
+   
+} */
 
 .skill{
     text-align: center;
-    font-style: italic;color: black;
+    font-family: "poppins",sans-serif;
+    color: black;
     font-size: 35px;
 }
 
 .languages{
     text-align: center;
-    /* border: 1px solid; */
+     border: 1px solid;
     list-style-type: none;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 6%;
+    margin-right: 6%;
    
 }
-.items{
+li.pyt{
+    list-style-type: none;
+    text-align: center;
+    height: 150px;
+}
+ .items{
     background-color: rgb(253, 222, 180);
-    border: 1px solid;
+   
     font-size: 22px;
     padding-bottom: 8px;
-    padding-top: 8px;
+    /* padding-top: 8px; */
+    text-align: center;
+    margin-left: 6%;
+    margin-right: 6%;
 }
 
 .py{
-    background-color: rgb(245, 245, 252);
-    border: 1px solid;
+    /* background-color: rgb(169, 169, 223); */
+   justify-content: space-evenly;
     font-size: 18px;
+    line-height: 60px;
+     padding-left: 6%;
+    padding-right: 6%;
+}
+/* .container2{
+    background-image: url("pyt.jpeg");
+    .img2{background-image: url("sql.jpeg");
+    background-image: url("develop.jpeg");
+    background-image: url("ms.jpeg");
+    /* background-color:rgb(87, 87, 220) ;
+    height: 250px;
+    width: 250px;  */
+    /* background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+    text-align: center;
+}  */ 
+
+.img1{
+    /* background-image: url("sql.jpeg"); */
+    /* text-align: center; */
+    background-repeat:no-repeat;
+    height: 200px;
+    height: 200px;
+    padding-right: 500px;
+    padding-top: 20px;
+}
+.img2{
+    /* background-image: url("sql.jpeg"); */
+    /* text-align: center; */
+    background-repeat:no-repeat;
+    height: 200px;
+    height: 200px;
+    background-position: center;
+    padding-top: 20px;
+}
+.img3{
+    object-position: center;
+}
+.img4{
+    padding:end;
+}
+    
+
+
+
+/* .box{
+    padding-left: 6%;
+    padding-right: 6%;
+    display: flex;
+    flex-direction: column;
+} */
+.img{
+    object-position: center;
+}
+.imgs{
+    object-position: right;
 }
 
-h2.fav{
+ h2.fav{
     text-align: center;
     font-style: italic;
     font-size: 35px;
     color: black;
-}
+} 
 
 .hobby{
     text-align: center;
     font-size: 18px;
-}
+    font-family: "poppins Light"
+
+}  
