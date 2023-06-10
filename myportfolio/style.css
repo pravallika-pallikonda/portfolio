@@ -32,15 +32,28 @@
     text-align: left;
     font-size: 40px;
     font-family: "poppins Light";
+    text-decoration-line:underline;
     /* padding-left: 5%;  */
     /* margin-top: 10px;  */
     padding-top: 20px ;
     width: 35vw;
-    color: rgb(20, 11, 11);
-    
+    /* color: rgb(20, 11, 11);    */
+    color: transparent;
+    background-image: linear-gradient(to right,rgb(239, 134, 134), rgb(36, 30, 30));
+    /* -webkit-text-stroke: #fff;  */
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -450px 0;
+    animation: backcolor 5s linear infinite alternate;
     
 }
 
+@keyframes backcolor{
+
+100%{
+    background-position: 0 0;
+}
+}
 
 h4.mail{
     /* line-height: 20px; */
@@ -50,7 +63,10 @@ h4.mail{
     /* border: 1px solid; */
     /* margin-left: 20%;
     margin-right: 20%; */
-    font-family: "poppins Light";  
+    font-family: "poppins Light";
+    /* color: transparent; */
+    
+    color: rgb(161, 152, 152);
     /* padding-left: 6%;
     padding-right: 6%; */
 
@@ -169,50 +185,54 @@ Img:hover {opacity: 0.7;};
 } */
 .education{
     text-align: center;
-    padding-left: 6%;
-    margin-right: 6%;
+
+ 
+  
+   
+}
+table{
+    height: 500px;
+    width: 1095px;
+    
+    
+    font-family: "poppins",sans-serif;
+   /* border: 1px solid; */
+     margin-left: 6%;
+   
 }
 
 .study{
     text-align: center;
     font-family: 'poppins',sans-serif;
-    color: black;
+    color: rgb(17, 12, 12);
     font-size: 35px;
-    /* padding-left: 6%;
-    padding-right: 6%; */
-    padding-top: 20px;
+    border: 1px solid;
+    margin-left: 6%;
+    margin-right: 6%;
+    padding-top: 10px;
 }
+
  
- table,th,tr,td{
+ table,tr,th,td{
     
-    /* margin-left: 10%;
-    margin-right: 10%; */
-    border-spacing: 7px;
-    width: 2vw;
-    background-color: rgb(206, 215, 228);
+    background-color: rgb(165, 162, 158);
+    color: white;
+    font-size: 13px;
+    
+    
  }
    
 
-table{
-    /* margin-left: 10%;
-    padding-right: 20%; */
-    height: 500px;
-    width: 80vw;
-    justify-content: center;
-    /* margin-left: 6%; */
-    /* margin-right: 2%; */
+table,tr,td{
+    background-color: rgb(113, 119, 119); 
 }
 
-.data{
-    background-color: rgb(227, 226, 227);
+    
     /* margin-right: 6%; */
     
-}
 
-/* tr,td{
-    padding: 8px;
-   
-} */
+
+
 
 .skill{
     text-align: center;
@@ -234,16 +254,16 @@ li.pyt{
     text-align: center;
     height: 150px;
 }
- .items{
-    background-color: rgb(253, 222, 180);
+ /* .items{
+    /* background-color: rgb(239, 150, 47); */
    
-    font-size: 22px;
-    padding-bottom: 8px;
+    /* font-size: 22px;
+    padding-bottom: 8px; */
     /* padding-top: 8px; */
-    text-align: center;
+    /* text-align: center;
     margin-left: 6%;
-    margin-right: 6%;
-}
+    margin-right: 6%; */
+} */
 
 .py{
     /* background-color: rgb(169, 169, 223); */
@@ -270,13 +290,15 @@ h3.skill{
 .lang{
     font-size: 30px;
     text-align: center;
+    color: rgb(129, 135, 135);
 }
 .known{
     border: 1px ;
     margin-left: 6%;
     margin-right: 6%;
-    background-color: rgb(183, 232, 232);
+    background-color: rgb(216, 232, 232);
     padding-top: 10px;
+    border-radius: 45px;
 }
 .line1{
    
@@ -284,6 +306,8 @@ h3.skill{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    color: rgb(18, 17, 17);
+    font-family: "poppins",sans-serif;
 }
 
 .line2{
@@ -292,6 +316,8 @@ h3.skill{
     justify-content: space-evenly;
     align-items: center;
     padding-top: 50px;
+    color: rgb(17, 14, 14);
+    font-family: "poppins",sans-serif;
     
 }
 .img1{
@@ -351,6 +377,7 @@ p.programs{
     flex-direction: row;
     padding-left: 6%;
     padding-right: 6%;
+    justify-content: space-between;
     
 }
 .image-container2{
@@ -358,58 +385,85 @@ p.programs{
     flex-direction: row;
     padding-left: 6%;
     padding-right: 6%;
-    
+    padding-top: 50px;
 }
-.hobby{
+.fav{
    
     font-size: 40px;
     padding-top: 10px;
+    border: 1px solid;
+    margin-left: 6%;
+    margin-right: 6%;
 }
 .paint{
-    text-align: center;
+    text-align: left;
+    font-size: 40px;
+   padding-left: 6%;
+   color: rgb(148, 144, 144);
+    /* padding-bottom: 20px; */
 }
-.myslides{
-    display: none;
+#img1{
+    height: 550px;
+    width: 800px;
 }
-
+#img2{
+    height: 550px;
+    width: 450px;
+    padding-left: 15%;
+}
+#img3{
+    height: 550px;
+    width: 700px;
+}
+#img4{
+    height: 550px;
+    width: 650px; 
+    padding-left: 15%;
+}
  
 
 .activities{
     display: flex;
     flex-direction: row;
 }
-.activity{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-top: 50px;
 
-}
 .top{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 30px;
+    margin-top: 30px;
+    
 }
 .play{
     text-align: right;
     padding-right: 250px;
+    color: gray;
+    font-size: 40px;
 }
 .song{
     text-align: left;
     padding-left: 250px;
-}
-.gdk{
-    text-align: left;
-    padding-left: 50px;
-    padding-bottom: 20px;
-    /* padding-top: 20px; */
-    
+    font-size: 40px;
+    color: gray;
 }
 
-.kurnool{
-    text-align: right;
-    padding-right: 50px;
-    padding-bottom: 20px;
-    /* padding-top: 20px; */
+.activity{
+    display: flex;
+    flex-direction:row;
+    margin-top: 30px;
+    justify-content: space-between;
+
+}
+#id1{
+    height: 400px;
+    width: 490px;
+    padding-left: 6%;
+    
+}
+#id2{
+    height: 400px;
+    width: 450px;
+    padding-right: 6%;
+   
+
 }
