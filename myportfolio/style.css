@@ -44,7 +44,7 @@
     background-repeat: no-repeat;
     -webkit-background-clip: text;
     background-position: -450px 0;
-    animation: backcolor 5s linear infinite alternate;
+    animation: backcolor 5s linear infinite;
     
 }
 
@@ -75,11 +75,11 @@ h4.mail{
 
 
 h2.about{
-    text-align: left;
+    /* text-align: right; */
     font-family:  'poppins',sans-serif;
     color: black;
     font-size: 30px;
-    padding-left: 6%;
+    /* margin-right: 6%; */
 }
 
 .myself{
@@ -113,64 +113,66 @@ h2.about{
 
 Img:hover {opacity: 0.7;};
 
-
-
  
-.para{
-    line-height: 20px;
-    font-size: 16px;
+.objective{
+    /* line-height: 20px;
   
-    text-align: right;
-    padding-left: 500px;
-    text-align: right;
-    margin-right: 110px;
+    /* text-align: right; */
+    /* padding-left: 500px; */
+    /* text-align: right;
+    margin-right: 110px; */
    
     
 }  
 
 .introduction{
-    text-align: left;
+    /* text-align: right; */
     line-height: 25px;
     font-size: 15px;
-    padding-left: 6%;
+    /* padding-right: 6%; */
     font-family:  'poppins',sans-serif;
     width: 25vw;
 }
-    
+ 
 
 
-.object{
-    text-align: right;
-    margin-right: 80px;
-    font-family:  'poppins',sans-serif;
+.h1{
+    text-align: left;
+    /* margin-right: 80px; */
+    font-family: 'poppins',sans-serif;
     color: black;
     font-size: 20px;
+    /* padding-left: 4%; */
     /* padding-right: 6%; */
     /* justify-content: end; */
 
 }
 
-.career{
-    align-items: left;
-    padding-left: 500px;
-    padding-top: 20px;
-   
+#para1{
+    /* align-items: left; */
+    padding-left: 6%;
+    font-family: "poppins",sans-serif;
+    /* padding-top: 20px; */
+    font-size: 14px;
+    
     color: black;
     width: 30vw;
     /* font-size: 30px; */
-    padding-right: 6%;
+  
 
     
 }
-.college{
-    width: 20vw;
-    margin-left: 5%;
+#para2{
+    /* width: 20vw;
+    padding-right: 5%; */
+    padding-right: 6%;
 }
 
 #container{
     /* text-align: right; */
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
    
 }
 
@@ -193,7 +195,7 @@ Img:hover {opacity: 0.7;};
 table{
     height: 500px;
     width: 1095px;
-    
+
     
     font-family: "poppins",sans-serif;
    /* border: 1px solid; */
@@ -217,7 +219,7 @@ table{
     
     background-color: rgb(165, 162, 158);
     color: white;
-    font-size: 13px;
+    font-size: 15px;
     
     
  }
@@ -263,7 +265,7 @@ li.pyt{
     /* text-align: center;
     margin-left: 6%;
     margin-right: 6%; */
-} */
+
 
 .py{
     /* background-color: rgb(169, 169, 223); */
@@ -291,6 +293,7 @@ h3.skill{
     font-size: 30px;
     text-align: center;
     color: rgb(129, 135, 135);
+    font-family: "poppins",sans-serif;
 }
 .known{
     border: 1px ;
@@ -299,6 +302,7 @@ h3.skill{
     background-color: rgb(216, 232, 232);
     padding-top: 10px;
     border-radius: 45px;
+   
 }
 .line1{
    
@@ -320,13 +324,12 @@ h3.skill{
     font-family: "poppins",sans-serif;
     
 }
+
 .img1{
-    height: 70px;
-    width: 70px;
-  
-   
-    
+    height: 80px;
+    width: 80px;
 }
+
 .img2{
     height: 100px;
     width: 100px;
@@ -386,6 +389,7 @@ p.programs{
     padding-left: 6%;
     padding-right: 6%;
     padding-top: 50px;
+    /* justify-content: space-between; */
 }
 .fav{
    
@@ -400,25 +404,86 @@ p.programs{
     font-size: 40px;
    padding-left: 6%;
    color: rgb(148, 144, 144);
+   font-family: "poppins",sans-serif;
     /* padding-bottom: 20px; */
 }
+.container1 {
+    position: relative;
+    font-family: Arial;
+}
+
+  
+.text1 {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+
 #img1{
     height: 550px;
     width: 800px;
+}
+.container2 {
+    position: relative;
+    font-family: Arial;
+    padding-right: 6%;
+}
+.text2 {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 10px;
 }
 #img2{
     height: 550px;
     width: 450px;
     padding-left: 15%;
 }
+.container3 {
+    position: relative;
+    font-family: Arial;
+    /* padding-right: 6%; */
+}
+.text3 {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 10px;
+}
 #img3{
     height: 550px;
-    width: 700px;
+    width: 500px;
+
+}
+.container4 {
+    position: relative;
+    font-family: Arial;
+    padding-right: 13%;
+}
+.text4 {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    padding-right: 5px;
 }
 #img4{
     height: 550px;
-    width: 650px; 
-    padding-left: 15%;
+    width: 450px; 
+    padding-left: 33%;
 }
  
 
@@ -439,12 +504,14 @@ p.programs{
     padding-right: 250px;
     color: gray;
     font-size: 40px;
+    font-family: "poppins",sans-serif;
 }
 .song{
     text-align: left;
     padding-left: 250px;
     font-size: 40px;
     color: gray;
+    font-family: "poppins",sans-serif;
 }
 
 .activity{
