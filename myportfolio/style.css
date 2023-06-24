@@ -4,6 +4,8 @@
     text-align: center;
     border-style: inset;
     font-family: 'Poppins', sans-serif;
+    background-color: rgb(155, 146, 146);
+    color: WHITE;
 }
 
 .list{
@@ -11,12 +13,13 @@
     display: flex;
     flex-direction: row;
     justify-content:space-between;
-    margin:center;
+    margin:left;
     padding-left: 6%;
     padding-right: 6%;   
     font-size: 18px;
     cursor: pointer; 
     font-family: "poppins regular";
+    
 }
 
 .menu{
@@ -30,7 +33,7 @@
     color: rgb(213, 199, 199);
     font-family: 'Poppins', sans-serif;
     text-align: left;
-    font-size: 40px;
+    font-size: 50px;
     font-family: "poppins Light";
     text-decoration-line:underline;
     /* padding-left: 5%;  */
@@ -78,7 +81,7 @@ h2.about{
     /* text-align: right; */
     font-family:  'poppins',sans-serif;
     color: black;
-    font-size: 30px;
+    font-size: 20px;
     /* margin-right: 6%; */
 }
 
@@ -114,24 +117,25 @@ h2.about{
 Img:hover {opacity: 0.7;};
 
  
-.objective{
+/* .objective{ */
     /* line-height: 20px;
   
     /* text-align: right; */
     /* padding-left: 500px; */
     /* text-align: right;
     margin-right: 110px; */
+    
    
     
-}  
+/* }   */
 
 .introduction{
     /* text-align: right; */
-    line-height: 25px;
+    line-height: 20px;
     font-size: 15px;
     /* padding-right: 6%; */
     font-family:  'poppins',sans-serif;
-    width: 25vw;
+    /* width: 25vw; */
 }
  
 
@@ -153,10 +157,11 @@ Img:hover {opacity: 0.7;};
     padding-left: 6%;
     font-family: "poppins",sans-serif;
     /* padding-top: 20px; */
-    font-size: 14px;
+    font-size: 18px;
+    
     
     color: black;
-    width: 30vw;
+    /* width: 30vw; */
     /* font-size: 30px; */
   
 
@@ -166,6 +171,9 @@ Img:hover {opacity: 0.7;};
     /* width: 20vw;
     padding-right: 5%; */
     padding-right: 6%;
+    font-size: 15px;
+    font-family: "poppins",sans-serif;
+    margin-left: 30%;
 }
 
 #container{
@@ -173,6 +181,7 @@ Img:hover {opacity: 0.7;};
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+     
    
 }
 
@@ -187,19 +196,22 @@ Img:hover {opacity: 0.7;};
 } */
 .education{
     text-align: center;
+    display: flex;
+    justify-content: center;
+    
 
  
   
    
 }
 table{
-    height: 500px;
-    width: 1095px;
+    height: 700px;
+    width: 1375px;
 
     
     font-family: "poppins",sans-serif;
    /* border: 1px solid; */
-     margin-left: 6%;
+    
    
 }
 
@@ -219,7 +231,7 @@ table{
     
     background-color: rgb(165, 162, 158);
     color: white;
-    font-size: 15px;
+    font-size: 18px;
     
     
  }
@@ -302,6 +314,8 @@ h3.skill{
     background-color: rgb(216, 232, 232);
     padding-top: 10px;
     border-radius: 45px;
+    font-size: 18px;
+    
    
 }
 .line1{
@@ -312,6 +326,7 @@ h3.skill{
     align-items: center;
     color: rgb(18, 17, 17);
     font-family: "poppins",sans-serif;
+    padding-top: 30px;
 }
 
 .line2{
@@ -322,6 +337,7 @@ h3.skill{
     padding-top: 50px;
     color: rgb(17, 14, 14);
     font-family: "poppins",sans-serif;
+    padding-bottom: 30px;
     
 }
 
@@ -402,14 +418,16 @@ p.programs{
 .paint{
     text-align: left;
     font-size: 40px;
-   padding-left: 6%;
-   color: rgb(148, 144, 144);
+   padding-left: 13%;
+   color: white;
+   padding-top: 40px;
    font-family: "poppins",sans-serif;
     /* padding-bottom: 20px; */
 }
-.container1 {
+.container1:hover {
     position: relative;
     font-family: Arial;
+        
 }
 
   
@@ -428,10 +446,10 @@ p.programs{
     height: 550px;
     width: 800px;
 }
-.container2 {
+.container2:hover {
     position: relative;
     font-family: Arial;
-    padding-right: 6%;
+    /* padding-right: 6%; */
 }
 .text2 {
     position: absolute;
@@ -445,9 +463,9 @@ p.programs{
 #img2{
     height: 550px;
     width: 450px;
-    padding-left: 15%;
+    padding-right: 15%;
 }
-.container3 {
+.container3:hover {
     position: relative;
     font-family: Arial;
     /* padding-right: 6%; */
@@ -466,7 +484,7 @@ p.programs{
     width: 500px;
 
 }
-.container4 {
+.container4:hover {
     position: relative;
     font-family: Arial;
     padding-right: 13%;
@@ -533,4 +551,56 @@ p.programs{
     padding-right: 6%;
    
 
+}
+.container-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid ;
+    margin-left: 6%;
+    margin-right: 6%;
+    background-color:rgba(17, 40, 17, 0.957);
+    background-blend-mode: hard-light;
+}
+.grid-container{
+    /* padding-left: 6%; */
+    /* padding-right: 6%; */
+    display: grid;
+    gap: 5px;
+    grid-template-columns:100px 100px 100px 100px 100px 100px 100px 100px ;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px;
+    justify-content:right;
+    padding-top: 40px;
+    
+   
+}
+ /* .box{
+    background-size: cover;
+} */
+#box1{
+    background-repeat: no-repeat;
+    grid-row: 1 /7;
+    grid-column: 1/5;
+     /* height: 400px; 
+     width: 715px; */
+ }
+ #box2{
+    background-repeat: no-repeat;
+    /* grid-column:span 3; 
+    grid-row: span 4; */
+    grid-area: 4 /5/ 7 /9;
+    
+   
+   
+} 
+#box3{
+    background-repeat: no-repeat;
+    /* grid-row: 6; */
+    grid-area: 1 /5 /4 /7 ;
+    
+}
+#box4{
+    background-repeat: no-repeat;
+    grid-area: 1 /7 /4 /9;
+    
 }
