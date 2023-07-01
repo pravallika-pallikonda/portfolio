@@ -7,6 +7,11 @@
     background-color: rgb(155, 146, 146);
     color: WHITE;
 }
+.body1{
+    background-image: url(bk2.webp);
+    /* margin-left: 6%;
+    margin-right: 6%; */
+}
 
 .list{
     list-style-type: none;
@@ -94,6 +99,7 @@ h2.about{
     padding-right: 6%;
     background-color: white; 
     color: rgb(15, 9, 9);
+    background-image: url(bk2.webp);
 }
 
 
@@ -301,12 +307,12 @@ h3.skill{
     margin-left: 6%;
     margin-right: 6%;
 }
-.lang{
+/* .lang{
     font-size: 30px;
     text-align: center;
     color: rgb(129, 135, 135);
     font-family: "poppins",sans-serif;
-}
+} */
 .known{
     border: 1px ;
     margin-left: 6%;
@@ -390,6 +396,7 @@ p.programs{
     color: black;
     font-size: 50px;
     padding-top: 10px;
+    background-image: url(bk1.jpg);
 }
 .image-container1{
     display: flex;
@@ -419,7 +426,7 @@ p.programs{
     text-align: left;
     font-size: 40px;
    padding-left: 13%;
-   color: white;
+   color: rgb(184, 180, 180);
    padding-top: 40px;
    font-family: "poppins",sans-serif;
     /* padding-bottom: 20px; */
@@ -510,45 +517,61 @@ p.programs{
     flex-direction: row;
 }
 
-.top{
+.headings{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 30px;
+    margin-left: 6%;
+    margin-right: 6%;
+    border: 1px solid;
+    padding-bottom: 60px;
+    background-image: url(bk6.jpeg);
+    background-repeat: no-repeat;
+    background-size: 1400px 2200px;
+    
     
 }
 .play{
     text-align: right;
-    padding-right: 250px;
+    padding-right: 200px;
     color: gray;
     font-size: 40px;
     font-family: "poppins",sans-serif;
+    /* border: 1px solid; */
+    /* padding-right: 6%; */
+   
 }
 .song{
     text-align: left;
-    padding-left: 250px;
+    padding-left: 200px;
     font-size: 40px;
     color: gray;
     font-family: "poppins",sans-serif;
+    /* border: 1px solid; */
+    /* padding-left: 6%; */
 }
 
-.activity{
+/* .activity{
     display: flex;
     flex-direction:row;
     margin-top: 30px;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 
-}
+
 #id1{
     height: 400px;
-    width: 490px;
-    padding-left: 6%;
+    width: 400px;
+    padding-left: 90px;
+    
+    /* border: 1px solid; */
     
 }
 #id2{
     height: 400px;
-    width: 450px;
-    padding-right: 6%;
+    width: 400px;
+    padding-right: 90px;
+    /* border: 1px solid; */
    
 
 }
@@ -559,8 +582,12 @@ p.programs{
     border: 1px solid ;
     margin-left: 6%;
     margin-right: 6%;
-    background-color:rgba(17, 40, 17, 0.957);
-    background-blend-mode: hard-light;
+    background-image: url(bk1.webp);
+    background-repeat: no-repeat;
+    background-size: 1400px 700px;
+    
+   
+   
 }
 .grid-container{
     /* padding-left: 6%; */
@@ -604,3 +631,4 @@ p.programs{
     grid-area: 1 /7 /4 /9;
     
 }
+
